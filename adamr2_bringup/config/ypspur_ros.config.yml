@@ -1,0 +1,22 @@
+ypspur_ros:
+  ros__parameters:
+    ypspur_bin: ypspur-coordinator
+    device_port: /dev/ttyACM0
+    
+    linear:
+      x:
+        has_velocity_limitation: true
+        v_max: 0.9
+        v_min: -0.9
+        has_acceleration_limitation: true
+        a_max: 1.5
+        a_min: -1.5
+      
+    angular:
+      z:
+        has_velocity_limitation: true
+        v_max: 3.14
+        v_min: -3.14
+        has_acceleration_limitation: true
+        a_max: 6.28
+        a_min: -6.28

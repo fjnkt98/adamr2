@@ -1,4 +1,4 @@
-ypspur_ros2_node:
+ypspur_ros:
   ros__parameters:
     base_frame_id: base_link
     odom_frame_id: odom
